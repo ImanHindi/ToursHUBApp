@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    x:Class="ToursHUB.Views.Templates.UserInfoTemplate"
+    xmlns:behaviors="clr-namespace:ToursHUB.Behaviors;assembly=ToursHUB">
+    <ContentView.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="UserInfoTitleStyle" 
+               TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize"
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="TextColor"
+                        Value="Gray" />
+            </Style>
+            
+            <Style x:Key="UserInfoTitleEntryStyle" 
+               TargetType="{x:Type Entry}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize"
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="TextColor"
+                        Value="Gray" />
+            </Style>
+            <Style x:Key="UserInfoContentStyle" 
+               TargetType="{x:Type Label}"
+                   BasedOn="{StaticResource UserInfoTitleStyle}">
+                <Setter Property="TextColor"
+                        Value="Black" />
+            </Style>
+            <Style x:Key="UserInfoContentEntryStyle" 
+               TargetType="{x:Type Entry}"
+                   BasedOn="{StaticResource UserInfoTitleEntryStyle}">
+                <Setter Property="TextColor"
+                        Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid
+            BackgroundColor="{StaticResource BackgroundColor}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="1" />
+            </Grid.RowDefinitions>
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="FirstName"
+                    Style="{StaticResource UserInfoTitleStyle}"/>
+            <Label 
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    Text="{Binding FirstName}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+            <Entry  Grid.Column="1"
+                    Grid.Row="0"
+                    Placeholder="{Binding FirstName}"
+                    Style="{StaticResource UserInfoContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+            <Label
+                Grid.Column="0"
+                    Grid.Row="1"
+                    Text="LastName"
+                    Style="{StaticResource UserInfoTitleStyle}"/>
+            <Label 
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    Text="{Binding LastName}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+            <Entry  Grid.Column="1"
+                    Grid.Row="1"
+                    Placeholder="{Binding FirstName}"
+                    Style="{StaticResource UserInfoContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    Text="Email"
+                    Style="{StaticResource UserInfoTitleStyle}"/>
+            <StackLayout Grid.Column="1"
+                    Grid.Row="2">
+            <Label 
+                   
+                    Text="{Binding Email}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+
+                <Entry Text="{Binding UserName.Value, Mode=TwoWay}" IsVisible="{Binding Visiblity}" />
+                <Entry.Style>
+                        <OnPlatform x:TypeArguments="Style">
+                            <On Platform="iOS, Android" Value="{StaticResource EntryStyle}" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="{StaticResource UwpEntryStyle}" />
+                        </OnPlatform>
+                </Entry.Style>
+                <Entry.Behaviors>
+                <behaviors:EventToCommandBehavior
+							EventName="TextChanged"
+							Command="{Binding ValidateUserNameCommand}" />
+                </Entry.Behaviors>
+                <Entry.Triggers>
+                <DataTrigger 
+							TargetType="Entry"
+							Binding="{Binding Email.IsValid}"
+							Value="False">
+                    <Setter Property="behaviors:LineColorBehavior.LineColor" Value="{StaticResource ErrorColor}" />
+                </DataTrigger>
+                </Entry.Triggers>
+                    
+            <Label 
+					Text="{Binding Email.Errors, Converter={StaticResource FirstValidationErrorConverter}"
+					Style="{StaticResource ValidationErrorLabelStyle}" />
+            </StackLayout>
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="3"
+                    Text="Password"
+                    Style="{StaticResource UserInfoTitleStyle}"/> 
+            
+            <StackLayout Grid.Column="1"
+                          Grid.Row="3">
+            <Label 
+                    Text="{Binding Password}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+           
+            <Entry  
+                  IsPassword="True"
+                  Text="{Binding Password.Value, Mode=TwoWay}" IsVisible="{Binding Visiblity}">
+                    <Entry.Style>
+                        <OnPlatform x:TypeArguments="Style">
+                            <On Platform="iOS, Android" Value="{StaticResource EntryStyle}" />
+                            <On Platform="UWP, WinRT, WinPhone" Value="{StaticResource UwpEntryStyle}" />
+                        </OnPlatform>
+                    </Entry.Style>
+                    <Entry.Behaviors>
+                        <behaviors:EventToCommandBehavior
+							EventName="TextChanged"
+							Command="{Binding ValidatePasswordCommand}" />
+                    </Entry.Behaviors>
+                    <Entry.Triggers>
+                        <DataTrigger 
+							TargetType="Entry"
+							Binding="{Binding Password.IsValid}"
+							Value="False">
+                            <Setter Property="behaviors:LineColorBehavior.LineColor" Value="{StaticResource ErrorColor}" />
+                        </DataTrigger>
+                    </Entry.Triggers>
+                </Entry>
+                <Label 
+					Text="{Binding Password.Errors, Converter={StaticResource FirstValidationErrorConverter}"
+					Style="{StaticResource ValidationErrorLabelStyle}" />
+                <Entry  
+                    Placeholder="{Binding ConfirmPassword}"
+                    Style="{StaticResource UserInfoContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+
+            </StackLayout>
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="4"
+                    Text="Birthday"
+                    Style="{StaticResource UserInfoTitleStyle} "/>
+            <Label 
+                    Grid.Column="1"
+                    Grid.Row="4"
+                    Text="{Binding Birthday, Converter={StaticResource DatetimeConverter}}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+            <DatePicker  Grid.Column="1"
+                         Grid.Row="4"
+                         MaximumDate="{x:Static sys:DateTime.Now}"
+                         Date="{Binding Birthday}"
+                         IsVisible="{Binding Visiblity}"/>
+            <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+            <DatePicker.MinimumDate>
+                <sys:DateTime x:FactoryMethod="Parse">
+                    <x:Arguments>
+                        <x:String>Jan 1 1900</x:String>
+                    </x:Arguments>
+                </sys:DateTime>
+            </DatePicker.MinimumDate>
+
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="5"
+                    Text="Gender"
+                    Style="{StaticResource UserInfoTitleStyle}"/>
+            <Label 
+                    Grid.Column="1"
+                    Grid.Row="5"
+                    Text="{Binding Gender, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+            <Entry  Grid.Column="1"
+                    Grid.Row="5"
+                    Placeholder="{Binding Gender, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource UserInfoContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+            <Label 
+                    Grid.Column="0"
+                    Grid.Row="6"
+                    Text="Phone No."
+                    Style="{StaticResource UserInfoTitleStyle}"/>
+            <Label 
+                    Grid.Column="1"
+                    Grid.Row="6"
+                    Text="{Binding PhoneNumber, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource UserInfoContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+            <Entry  Grid.Column="1"
+                    Grid.Row="6"
+                    Placeholder="{Binding PhoneNumber, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource UserInfoContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+
+
+            <Grid 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="7"
+                BackgroundColor="Gray"/>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

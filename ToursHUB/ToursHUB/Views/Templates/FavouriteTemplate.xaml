@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ToursHUB.Views.Templates.FavouriteTemplate">
+    <ContentView.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="FavouriteTitleStyle" 
+               TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize"
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="TextColor"
+                        Value="Gray" />
+            </Style>
+
+            <Style x:Key="FavouriteContentStyle" 
+               TargetType="{x:Type Label}"
+                   BasedOn="{StaticResource FavouriteTitleStyle}">
+                <Setter Property="TextColor"
+                        Value="Black" />
+            </Style>
+            <Style x:Key="FavouriteImageStyle" 
+               TargetType="{x:Type Image}"
+                   >
+                <Setter Property="HeightRequest"
+                        Value="108" />
+                <Setter Property="WidthRequest"
+                        Value="108" />
+                <Setter Property="Aspect"
+                        Value="AspectFit" />
+            </Style>
+         
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid
+            BackgroundColor="{StaticResource BackgroundColor}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="1" />
+            </Grid.RowDefinitions>
+            <StackLayout
+                Grid.Column="0"
+                Grid.Row="0"
+                Margin="12">
+                <Label 
+                    Text="Name"
+                    Style="{StaticResource FavouriteTitleStyle}"/>
+                <Label 
+                    Text="{Binding FavCountry.Name, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavCountry.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding FavCity.Name, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavCity.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding FavDistination.Name, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavDistination.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding CatalogItem.Name, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding CatalogItem.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+            </StackLayout>
+            <StackLayout
+                Grid.Column="0"
+                Grid.Row="1" 
+                Margin="12">
+                <Label 
+                    Text="Category"
+                    Style="{StaticResource FavouriteTitleStyle}"/>
+                <Label 
+                    Text="{Binding FavCountry.Category, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavCountry.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding FavCity.Category, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavCity.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding FavDistination.Category, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding FavDistination.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+                <Label 
+                    Text="{Binding CatalogItem.Category, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}" IsVisible="{Binding CatalogItem.Name, Converter={StaticResource StringNullOrEmptyBoolConverter}}"/>
+
+            </StackLayout>
+            <StackLayout
+                Grid.Column="1"
+               
+                Margin="12">
+                <!--<Label 
+                    Text="DATE"
+                    Style="{StaticResource FavouriteTitleStyle}"/>-->
+                <Image               
+                Source="{Binding FavCountry.Image, Converter={StaticResource ImageConverter}}" 
+                Style="{StaticResource FavouriteImageStyle}"
+                IsVisible="{Binding FavCountry.Name, Converter={StaticResource  StringNullOrEmptyBoolConverter}"/>
+                <Image               
+                Source="{Binding FavCity.Image, Converter={StaticResource ImageConverter}}"        
+                Style="{StaticResource FavouriteImageStyle}"
+
+                IsVisible="{Binding FavCity.Name, Converter={StaticResource  StringNullOrEmptyBoolConverter}"/>
+                <Image               
+                Source="{Binding FavDistination.Image, Converter={StaticResource ImageConverter}}"        
+                Style="{StaticResource FavouriteImageStyle}"
+                IsVisible="{Binding FavDistination.Name, Converter={StaticResource  StringNullOrEmptyBoolConverter}"/>
+                <Image               
+                Source="{Binding CatalogItem.Image, Converter={StaticResource ImageConverter}}"        
+                Style="{StaticResource FavouriteImageStyle}"
+                IsVisible="{Binding CatalogItem.Name, Converter={StaticResource  StringNullOrEmptyBoolConverter}"/>
+                <!--<Label 
+                    Text="{Binding StartDate, Converter={StaticResource DatetimeConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}"/>-->
+            </StackLayout>
+            <!--<StackLayout
+                Grid.Column="1"
+                Grid.Row="1" 
+                Margin="12">
+                <Label 
+                    Text="Notes"
+                    Style="{StaticResource FavouriteTitleStyle}"/>
+                <Label 
+                    Text="{Binding Notetitle, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource FavouriteContentStyle}"/>
+            </StackLayout>-->
+            <Grid 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="2"
+                BackgroundColor="Gray"/>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

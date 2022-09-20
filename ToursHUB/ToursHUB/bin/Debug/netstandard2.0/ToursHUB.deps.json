@@ -1,0 +1,588 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "00ef9b901a98e68aa549888731013dc61c8a4605"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "ToursHUB/1.0.0": {
+        "dependencies": {
+          "Acr.UserDialogs": "7.0.1",
+          "Atom.Forms.ImageShare": "0.0.2",
+          "IdentityModel": "3.10.0",
+          "Microsoft.Bcl.Build": "1.0.21",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "PCLCrypto": "2.0.147",
+          "Plugin.Share": "7.1.1",
+          "SQLiteNetExtensions.Async": "2.1.0",
+          "SlideOverKit": "2.1.6.2",
+          "System.ComponentModel.Annotations": "4.5.0",
+          "Validation": "2.4.18",
+          "Xam.Plugin.Connectivity": "3.2.0",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
+          "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Messaging": "5.2.0",
+          "Xam.Plugins.Settings": "3.1.1",
+          "Xamarin.Auth": "1.6.0.2",
+          "Xamarin.FFImageLoading.Forms": "2.4.3.840",
+          "Xamarin.Forms": "3.2.0.871581",
+          "Xamarin.Forms.Maps": "3.2.0.871581",
+          "Xamarin.Social": "1.1.8",
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "ToursHUB.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Atom.Forms.ImageShare/0.0.2": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/ImageShare.dll": {
+            "assemblyVersion": "1.0.6288.26820",
+            "fileVersion": "1.0.6288.26820"
+          }
+        }
+      },
+      "IdentityModel/3.10.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.dll": {
+            "assemblyVersion": "3.10.0.0",
+            "fileVersion": "3.10.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.21": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "PCLCrypto/2.0.147": {
+        "dependencies": {
+          "PInvoke.NCrypt": "0.3.2",
+          "Validation": "2.4.18"
+        },
+        "runtime": {
+          "lib/net45/PCLCrypto.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.147.15665"
+          }
+        }
+      },
+      "PInvoke.NCrypt/0.3.2": {
+        "runtime": {
+          "lib/net40/PInvoke.NCrypt.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.2.64456"
+          }
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Plugin.Share/7.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Share.Abstractions.dll": {
+            "assemblyVersion": "7.1.1.0",
+            "fileVersion": "7.1.1.0"
+          },
+          "lib/netstandard1.0/Plugin.Share.dll": {
+            "assemblyVersion": "7.1.1.0",
+            "fileVersion": "7.1.1.0"
+          }
+        }
+      },
+      "SlideOverKit/2.1.6.2": {
+        "runtime": {
+          "lib/netstandard2.0/SlideOverKit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.5.231.0",
+            "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLiteNetExtensions/2.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/SQLiteNetExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLiteNetExtensions.Async/2.1.0": {
+        "dependencies": {
+          "SQLiteNetExtensions": "2.0.0",
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensionsAsync.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.ComponentModel.Annotations.dll": {
+            "assemblyVersion": "4.2.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Validation/2.4.18": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.18.58985"
+          }
+        }
+      },
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          },
+          "lib/netstandard1.0/Plugin.Connectivity.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Geolocator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xam.Plugins.Messaging/5.2.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Messaging.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "5.2.0.16"
+          },
+          "lib/netstandard1.0/Plugin.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "5.2.0.16"
+          }
+        }
+      },
+      "Xam.Plugins.Settings/3.1.1": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          },
+          "lib/netstandard1.0/Plugin.Settings.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "Xamarin.Auth/1.6.0.2": {
+        "runtime": {
+          "lib/netstandard1.6/Xamarin.Auth.dll": {
+            "assemblyVersion": "1.6.0.1",
+            "fileVersion": "1.6.0.1"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.3.840": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.3.840": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.3.840",
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.3.840",
+            "fileVersion": "2.4.3.840"
+          }
+        }
+      },
+      "Xamarin.Forms/3.2.0.871581": {
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/3.2.0.871581": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Social/1.1.8": {
+        "dependencies": {
+          "Xamarin.Auth": "1.6.0.2"
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Social.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ToursHUB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acr.UserDialogs/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+eGbTgwaFPzcaRnMdnAK5pHA0eoeoxkhy80FNwGeewqvA+DM6fUPM9yMbrN2hw3rcuBaXd2ghy2Xq5XU7m8qkw==",
+      "path": "acr.userdialogs/7.0.1",
+      "hashPath": "acr.userdialogs.7.0.1.nupkg.sha512"
+    },
+    "Atom.Forms.ImageShare/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m67++iB4ojw/C8KeCSyWB0scvOY1yQ7Qpk02ObM1gQN11DYPpr2E8UerGFJRsRSK5AmYFgX3mJ951ZbKs7/7Ig==",
+      "path": "atom.forms.imageshare/0.0.2",
+      "hashPath": "atom.forms.imageshare.0.0.2.nupkg.sha512"
+    },
+    "IdentityModel/3.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QmHcnV1saSJ7pp5Xpd5swe6dn4vB3YEYI9e1p1mj2YEkpz7BbJvIFaF6CdbdxX8sJ5gTFPy6BOQaY9qsQeNBsw==",
+      "path": "identitymodel/3.10.0",
+      "hashPath": "identitymodel.3.10.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgHu4mIt0+NVGyI12Bj4hLPypNK55UOH+ologj2LqDCjxq3EbIxe/uAtHjY+fEwbE1dtsAHG8SXHf+V/EYbKTg==",
+      "path": "microsoft.bcl.build/1.0.21",
+      "hashPath": "microsoft.bcl.build.1.0.21.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "PCLCrypto/2.0.147": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFNDBjhP+qPukqB8PiGbWDo70gHsEzSKupL47JisjYFQaGwlPPCnN8ah59QCzIvsg9IUr2AecGKXF3ONpyFL9g==",
+      "path": "pclcrypto/2.0.147",
+      "hashPath": "pclcrypto.2.0.147.nupkg.sha512"
+    },
+    "PInvoke.NCrypt/0.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s7SIBXlr3qolZaM5mGEXG2sKBY4yFVHTWBlwhRC93le08Aj+n/IaFVnB9LBFv6mpCCivXdzad+9EX6HHds4PyQ==",
+      "path": "pinvoke.ncrypt/0.3.2",
+      "hashPath": "pinvoke.ncrypt.0.3.2.nupkg.sha512"
+    },
+    "Plugin.Permissions/3.0.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+      "path": "plugin.permissions/3.0.0.12",
+      "hashPath": "plugin.permissions.3.0.0.12.nupkg.sha512"
+    },
+    "Plugin.Share/7.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-07mFq3H9eeX2TGNKitmByjDKZl/3KXZrT2jv/27mEEnY7me/lHQSX52mI0B1mVTZquCloNmZm12EcV1t4fFSSA==",
+      "path": "plugin.share/7.1.1",
+      "hashPath": "plugin.share.7.1.1.nupkg.sha512"
+    },
+    "SlideOverKit/2.1.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgFyLbO9t4g5ks2NnDU3nBCjPBRzdFdm4nZ+D+O53u0Pdcy+XW2H/f5W71IdvIoKT4KzJO2zEreLu9vbzfwghg==",
+      "path": "slideoverkit/2.1.6.2",
+      "hashPath": "slideoverkit.2.1.6.2.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLiteNetExtensions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wwLvVi4RyNu9VWFwgiKQOaHtzFpTmt2RE7WHz5EKABopbe6NW+jQF7rwKbtoNK+mQHqxqOwlNP9dDGjz89fFAQ==",
+      "path": "sqlitenetextensions/2.0.0",
+      "hashPath": "sqlitenetextensions.2.0.0.nupkg.sha512"
+    },
+    "SQLiteNetExtensions.Async/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f375b/KuTVE4F1LnuCldYqU/TL5qdxWvzNZKZPZQ4Oli3bcq1Ne5okobL9xoISJD2pMpMTjF2JT/lIlxpORusA==",
+      "path": "sqlitenetextensions.async/2.1.0",
+      "hashPath": "sqlitenetextensions.async.2.1.0.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IjDa643EO77A4CL9dhxfZ6zzGu+pM8Ar0NYPRMN3TvDiga4uGDzFHOj/ArpyNxxKyO5IFT2LZ0rK3kUog7g3jA==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JF+wDdfFiRl3rz3dPMfR6aR568AW2J5CUMmhSflgHDz4zbVK4/00ax8UHnHyEMvblPewgNugjuA4oyoL8Pex2g==",
+      "path": "system.text.encodings.web/4.5.0",
+      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "Validation/2.4.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfvWJ1QeuZ1FQCkqgXTu1cOkRkbNCfxs4Tat+abXLwom6OXbULVhRGp34BTvVB4XPxj6VIAl7KfLfStXMt/Ehw==",
+      "path": "validation/2.4.18",
+      "hashPath": "validation.2.4.18.nupkg.sha512"
+    },
+    "Xam.Plugin.Connectivity/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
+      "path": "xam.plugin.connectivity/3.2.0",
+      "hashPath": "xam.plugin.connectivity.3.2.0.nupkg.sha512"
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "hashPath": "xam.plugin.geolocator.4.5.0.6.nupkg.sha512"
+    },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
+      "path": "xam.plugin.media/4.0.1.5",
+      "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
+    },
+    "Xam.Plugins.Messaging/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTBg4tZjkkLHuUuXaybC/pwi0SugrJeyZ7Nq60IAxBliO7FMYaPq9mmmPQvCAEwEhtWaZAjbBzwG/I71CcQrmA==",
+      "path": "xam.plugins.messaging/5.2.0",
+      "hashPath": "xam.plugins.messaging.5.2.0.nupkg.sha512"
+    },
+    "Xam.Plugins.Settings/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
+      "path": "xam.plugins.settings/3.1.1",
+      "hashPath": "xam.plugins.settings.3.1.1.nupkg.sha512"
+    },
+    "Xamarin.Auth/1.6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tSRTHDKTLK+YC7JGX8M8jca5RE9PcHZpamLXkPP2TGmoQULIjtwy/gxlaUFb9cAGFbSvTMCm65IAi+8GvvcQ+g==",
+      "path": "xamarin.auth/1.6.0.2",
+      "hashPath": "xamarin.auth.1.6.0.2.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUcVwR/hfaG6/GZ28g8YDDKnXI2JMfT4goanYoYgKuqjLjM44qwivrhnBZ0Zt/pTDpqiGUmGTIoakHiDihTVQQ==",
+      "path": "xamarin.ffimageloading/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.3.840": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WEL6JcZPprgnlhz2at6uffOJtPyd1UOMNzve363olLNF5UX7GDWeIh6bkgZKTBy5SDVCp+m2cj3F64EAct5hDw==",
+      "path": "xamarin.ffimageloading.forms/2.4.3.840",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.3.840.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.2.0.871581": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1yKOnOHYR1v4Afa5XIkpPfdIG3A3Tu0gT5TX4923xG5DV+8dJw+beSPuLagSJoU33NzV023t73R5iSbMoSF7qQ==",
+      "path": "xamarin.forms/3.2.0.871581",
+      "hashPath": "xamarin.forms.3.2.0.871581.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.2.0.871581": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7+S1hnT5Ibo3LCKOXU97vesjyBa9PhVD++EASxTgTSPGnM82PVM5B5XB+pAwsPWjZmQ99OsOuNnEU3dWjGj3LA==",
+      "path": "xamarin.forms.maps/3.2.0.871581",
+      "hashPath": "xamarin.forms.maps.3.2.0.871581.nupkg.sha512"
+    },
+    "Xamarin.Social/1.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z4iarhHeLxbboQ+ISjuloJaWFSU6v2sXRQR5Jh8se3JC4ABsvr6HZiP4HArs9NeVybA9O6KYGSyNIknY80XmIA==",
+      "path": "xamarin.social/1.1.8",
+      "hashPath": "xamarin.social.1.1.8.nupkg.sha512"
+    }
+  }
+}

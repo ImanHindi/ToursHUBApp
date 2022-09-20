@@ -1,0 +1,321 @@
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB.apk
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB-Signed.apk
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csprojResolveAssemblyReference.cache
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csproj.CoreCompileInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/android/bin/com.companyname.ToursHUB.apk
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/tabbar.xml
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/toolbar.xml
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/values/styles.xml
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/R.cs.flag
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/uploadflags.txt
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Maps.dll
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/xml/file_paths.xml
+E:/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Exif.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB.apk
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB-Signed.apk
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csprojResolveAssemblyReference.cache
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Maps.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.Android.Support.Exif.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csproj.CoreCompileInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csproj.CopyComplete
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/android/bin/com.companyname.ToursHUB.apk
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/tabbar.xml
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/toolbar.xml
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/values/styles.xml
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/xml/file_paths.xml
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/splashscreen.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/splashscreen.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/splashscreen.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/splashscreen.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/app_settings.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/background.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/header_logo.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_campaigns.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_cart.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_filter.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_profile.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/product_add.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/switch_off.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/switch_on.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/app_settings.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/background.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/header_logo.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_campaigns.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_cart.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_filter.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_profile.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/product_add.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/switch_off.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/switch_on.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/app_settings.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/background.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/header_logo.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_campaigns.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_cart.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_filter.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_profile.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/product_add.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/switch_off.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/switch_on.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/R.cs.flag
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/uploadflags.txt
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/profileimage.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/banner.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/default_campaign.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/default_product.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_campaign_01.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_campaign_02.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_01.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_02.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_03.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_04.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_05.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/noimage.png
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Forms.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Forms.Droid.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Platform.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Mono.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/mscorlib.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Connectivity.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Geolocator.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Media.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Messaging.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Permissions.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Share.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SQLite-net.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Core.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.IdentityModel.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Json.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Net.Http.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Runtime.Serialization.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Xml.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Xml.Linq.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Data.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Numerics.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Transactions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Mono.Data.Tds.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Mono.Security.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.IO.Compression.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.IO.Compression.FileSystem.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.ComponentModel.Composition.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.Web.Services.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.ServiceModel.Internals.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/System.ComponentModel.DataAnnotations.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Forms.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Forms.Droid.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Platform.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Mono.Android.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/mscorlib.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Connectivity.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Geolocator.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Media.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Messaging.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Permissions.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Share.Abstractions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SQLite-net.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Core.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.IdentityModel.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Json.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Net.Http.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Runtime.Serialization.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Xml.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Xml.Linq.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Data.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Numerics.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Transactions.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Mono.Data.Tds.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Mono.Security.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.IO.Compression.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.IO.Compression.FileSystem.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.ComponentModel.Composition.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.Web.Services.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.ServiceModel.Internals.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/System.ComponentModel.DataAnnotations.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FormsViewGroup.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Connectivity.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Geolocator.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Media.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Messaging.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Permissions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Settings.Abstractions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Settings.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Share.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SlideOverKit.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SlideOverKit.Droid.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SQLiteNetExtensions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SQLiteNetExtensionsAsync.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Core.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/ToursHUB.Android.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FormsViewGroup.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Connectivity.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Geolocator.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Media.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Messaging.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Permissions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Settings.Abstractions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Settings.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Share.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SlideOverKit.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SlideOverKit.Droid.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SQLiteNetExtensions.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SQLiteNetExtensionsAsync.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Core.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Xaml.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.dll
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.Android.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB.apk
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/com.companyname.ToursHUB-Signed.apk
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.dll
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/ToursHUB.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csprojAssemblyReference.cache
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Maps.dll.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/proguard/dc663e480.txt
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/dc663e48.proguard.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/0757626b.proguard.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/2f4d086a.proguard.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XbdMerge/ea5c07c4.proguard.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res.flag
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csproj.CoreCompileInputs.cache
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/XamlC.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.csproj.CopyComplete
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.dll
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/ToursHUB.Android.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/android/bin/com.companyname.ToursHUB.apk
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/icon.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/icon.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/icon.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/tabbar.xml
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/layout/toolbar.xml
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/values/styles.xml
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/xml/file_paths.xml
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/splashscreen.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/splashscreen.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/splashscreen.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/splashscreen.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/app_settings.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/background.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/header_logo.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_campaigns.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_cart.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_filter.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/menu_profile.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/product_add.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/switch_off.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-hdpi/switch_on.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/app_settings.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/background.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/header_logo.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_campaigns.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_cart.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_filter.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/menu_profile.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/product_add.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/switch_off.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xhdpi/switch_on.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/app_settings.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/background.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/header_logo.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_campaigns.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_cart.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_filter.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/menu_profile.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/product_add.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/switch_off.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable-xxhdpi/switch_on.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/profileimage.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/banner.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/default_campaign.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/default_product.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_campaign_01.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_campaign_02.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_01.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_02.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_03.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_04.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/fake_product_05.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/noimage.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/res/drawable/icon.png
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/R.cs.flag
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/R.txt
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/uploadflags.txt
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Forms.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Forms.Platform.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FFImageLoading.Platform.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/IdentityModel.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Mono.Android.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Connectivity.Abstractions.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SlideOverKit.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SQLiteNetExtensionsAsync.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Core.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/ToursHUB.Android.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Forms.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Forms.Platform.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FFImageLoading.Platform.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/IdentityModel.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Mono.Android.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Connectivity.Abstractions.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Messaging.Abstractions.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Share.Abstractions.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SlideOverKit.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SQLiteNetExtensionsAsync.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/ToursHUB.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Core.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Xaml.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/FormsViewGroup.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Connectivity.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Messaging.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Settings.Abstractions.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Settings.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Plugin.Share.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SlideOverKit.Droid.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/SQLiteNetExtensions.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/FormsViewGroup.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Connectivity.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Messaging.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Settings.Abstractions.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Settings.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Plugin.Share.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SlideOverKit.Droid.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/SQLiteNetExtensions.dll.mdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB.Android/obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb

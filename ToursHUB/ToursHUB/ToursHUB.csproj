@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SkipValidatePackageReferences>true</SkipValidatePackageReferences>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.0.1" />
+    <PackageReference Include="Atom.Forms.ImageShare" Version="0.0.2" />
+    <PackageReference Include="IdentityModel" Version="3.10.0" />
+    <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="PCLCrypto" Version="2.0.147" />
+    <PackageReference Include="Plugin.Share" Version="7.1.1" />
+    <PackageReference Include="SlideOverKit" Version="2.1.6.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
+    <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+    <PackageReference Include="Validation" Version="2.4.18" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.5.0.6" />
+    <PackageReference Include="Xam.Plugin.Media" Version="4.0.1.5" />
+    <PackageReference Include="Xam.Plugins.Messaging" Version="5.2.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Xamarin.Auth" Version="1.6.0.2" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.Forms" Version="3.2.0.871581" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.2.0.871581" />
+    <PackageReference Include="Xamarin.Social" Version="1.1.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>*.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\CreatorEditTripView.xaml.cs">
+      <DependentUpon>CreatorEditTripView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Templates\FavouriteTemplate.xaml.cs">
+      <DependentUpon>FavouriteTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Templates\TripTemplate - Copy.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Templates\UserInfoTemplate.xaml.cs">
+      <DependentUpon>UserInfoTemplate.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ToursGuideView.xaml.cs">
+      <DependentUpon>ToursGuideView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TourGuideDetailView.xaml.cs">
+      <DependentUpon>TourGuideDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TourDetailView.xaml.cs">
+      <DependentUpon>TourDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TourCatalogView.xaml.cs">
+      <DependentUpon>TourCatalogView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Animation\Base\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+</Project>

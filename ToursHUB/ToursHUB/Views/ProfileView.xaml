@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursHUB.Views.ProfileView" 
+             xmlns:views="clr-namespace:ToursHUB.Views;assembly=ToursHUB"
+			 xmlns:viewModelBase="clr-namespace:ToursHUB.ViewModels.Base;assembly=ToursHUB"
+             xmlns:templates="clr-namespace:ToursHUB.Views.Templates;assembly=ToursHUB"
+             xmlns:behaviors="clr-namespace:ToursHUB.Behaviors;assembly=ToursHUB"
+             xmlns:controls="clr-namespace:ToursHUB.Controls;assembly=ToursHUB"
+             xmlns:converters="clr-namespace:ToursHUB.Converters;assembly=ToursHUB"
+			 viewModelBase:ViewModelLocator.AutoWireViewModel="true"
+             Title="My profile">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="LoginButtonStyle" 
+               TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+            </Style>
+            
+            <Style x:Key="TitleLabelStyle" 
+               TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize"
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+                <Setter Property="Margin"
+                        Value="0, 12" />
+            </Style>
+            <Style x:Key="EditToggleButtonStyle" 
+                   TargetType="{x:Type controls:ToggleButton}">
+                <Setter Property="HeightRequest" 
+                        Value="48" />
+                <Setter Property="WidthRequest" 
+                        Value="48" />
+                <Setter Property="VerticalOptions" 
+                        Value="Center" />
+                <Setter Property="HorizontalOptions" 
+                        Value="Center" />
+                <Setter Property="Margin" 
+                        Value="12,0" />
+                <Setter Property="Animate" 
+                        Value="True" />
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid    
+        Padding="0"     
+        ColumnSpacing="0"   
+        RowSpacing="0"
+        BackgroundColor="{StaticResource BackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <!--HEADER-->
+        <Grid  Grid.Row="0"
+               BackgroundColor="{StaticResource AccentColor}">
+            <Grid.Padding>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS, Android" Value="0" />
+                    <On Platform="UWP, WinRT, WinPhone" Value="12, 0" />
+                </OnPlatform>
+            </Grid.Padding>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="1" />
+
+            </Grid.RowDefinitions>
+            <!-- IMAGE -->
+            <Image
+                Grid.Column="0"
+                Grid.Row="0"
+                Source="{Binding User.ProfileImage.ImageSource, Converter={StaticResource ImageConverter}}"        
+                HeightRequest="108" 
+                WidthRequest="108"
+                Aspect="AspectFit"
+                VerticalOptions="Start"
+                Margin="12,0,0,0" />
+            <!-- EDIT -->
+            <Button  Grid.Column="0"
+                     Grid.Row="1" 
+                     Text="{Binding ToggleButton}" 
+                     TextColor="{StaticResource BlackColor}"
+                     BackgroundColor="{StaticResource GrayColor}"
+                     Command="{Binding ChangeProfileImageCommand}" />
+          
+            <!-- NAME -->
+            <Label
+                Grid.Column="1"
+                Grid.Row="0"
+                Text="{Binding User.FirstName+User.LastName, Converter={StaticResource ToUpperConverter}}"/>
+
+            <Label
+                    Grid.Column="1"
+                    Grid.Row="1"
+                    Text="{Binding User.Email}"/>
+            <Grid 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="2"
+                BackgroundColor="Gray"/>
+        </Grid>
+   
+
+        <!-- LOG OUT BUTTON -->
+        <Button         
+            Grid.Row="1"
+            Text="LOG OUT" 
+            TextColor="{StaticResource BlackColor}"
+            BackgroundColor="{StaticResource GrayColor}"
+            Command="{Binding LogoutCommand}" />
+
+        <!-- MyInformation -->
+        <Grid
+            Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label 
+                Grid.Column="0"
+                Grid.Row="0"
+                Text="MY INFORMATION"
+                Style="{StaticResource TitleLabelStyle}"/>
+            <!--<Button  Grid.Column="1"
+                     Grid.Row="0" 
+                     Text="EDIT" 
+                     TextColor="{StaticResource BlackColor}"
+                     BackgroundColor="{StaticResource GrayColor}"
+                     Command="{Binding EditeUserInfoCommand}" />-->
+            <controls:ToggleButton 
+                        Grid.Column="1" 
+                        Grid.Row="0"    
+                        Checked="{Binding Visiblity, Mode=TwoWay}"
+                        Command="{Binding EditUserInfoCommand}"
+                        Style="{StaticResource EditToggleButtonStyle}">
+                <controls:ToggleButton.CheckedImage>
+                    <OnPlatform x:TypeArguments="ImageSource">
+                        <On Platform="iOS" Value="Edit.png" />
+                        <On Platform="Android" Value="Edit.png" />
+                        <On Platform="UWP, WinRT, WinPhone" Value="Assets/Edit.png" />
+                    </OnPlatform>
+                </controls:ToggleButton.CheckedImage>
+                <controls:ToggleButton.UnCheckedImage>
+                    <OnPlatform x:TypeArguments="ImageSource">
+                        <On Platform="iOS" Value="Save.png" />
+                        <On Platform="Android" Value="Save.png" />
+                        <On Platform="UWP, WinRT, WinPhone" Value="Assets/Save.png" />
+                    </OnPlatform>
+                </controls:ToggleButton.UnCheckedImage>
+            </controls:ToggleButton>
+            <Grid 
+                Grid.Row="1">
+                <Grid 
+                    IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                    <Label 
+                        Text="Login First To Show Your Profile."      
+                        IsVisible="{Binding User.Count, Converter={StaticResource InverseCountToBoolConverter}}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Grid>
+                <ListView 
+                    ItemsSource="{Binding User}"
+                    HasUnevenRows="True"
+                    SeparatorVisibility="None"
+                    CachingStrategy="RecycleElement">
+                    <!--<ListView.Behaviors>
+                        <behaviors:EventToCommandBehavior           
+                            EventName="ItemTapped"
+                            Command="{Binding EditeUserInfoCommand}"
+                            EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}" />
+                    </ListView.Behaviors>-->
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <templates:UserInfoTemplate />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+        <!-- My ORDERS -->
+        <Grid
+            Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label 
+                Grid.Row="0"
+                Text="MY ORDERS"
+                Style="{StaticResource TitleLabelStyle}"/>
+            <Grid 
+                Grid.Row="1">
+                <Grid 
+                    IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                    <Label 
+                        Text="NO ORDERS"      
+                        IsVisible="{Binding Orders.Count, Converter={StaticResource InverseCountToBoolConverter}}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Grid>
+                <ListView 
+                    ItemsSource="{Binding Orders}"
+                    HasUnevenRows="True"
+                    SeparatorVisibility="None"
+                    CachingStrategy="RecycleElement">
+                    <ListView.Behaviors>
+                        <behaviors:EventToCommandBehavior           
+                            EventName="ItemTapped"
+                            Command="{Binding OrderDetailCommand}"
+                            EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}" />
+                    </ListView.Behaviors>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <templates:OrderTemplate />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+        <!-- MyTrips -->
+        <Grid
+            Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label 
+                Grid.Column="0"
+                Grid.Row="0"
+                Text="MY TRIPS"
+                Style="{StaticResource TitleLabelStyle}"/>
+            <Button  Grid.Column="1"
+                     Grid.Row="0" 
+                     Text="ADD" 
+                     TextColor="{StaticResource BlackColor}"
+                     BackgroundColor="{StaticResource GrayColor}"
+                     Command="{Binding CreatTripCommand}" />
+
+            <Grid 
+                Grid.Row="1">
+                <Grid 
+                    IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                    <Label 
+                        Text="NO TRIPS ADDED!"      
+                        IsVisible="{Binding Trips.Count, Converter={StaticResource InverseCountToBoolConverter}}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Grid>
+                <ListView 
+                    ItemsSource="{Binding Trips}"
+                    HasUnevenRows="True"
+                    SeparatorVisibility="None"
+                    CachingStrategy="RecycleElement">
+                    <ListView.Behaviors>
+                        <behaviors:EventToCommandBehavior           
+                            EventName="ItemTapped"
+                            Command="{Binding TripDetailCommand}"
+                            EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}" />
+                    </ListView.Behaviors>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <templates:TripTemplate />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+
+        <!-- MyFavourites -->
+        <Grid
+            Grid.Row="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label 
+                Grid.Row="0"
+                Text="MY FAVOURITES"
+                Style="{StaticResource TitleLabelStyle}"/>
+            <Grid 
+                Grid.Row="1">
+                <Grid 
+                    IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                    <Label 
+                        Text="NO FAVOURITES ADDED"      
+                        IsVisible="{Binding Favourites.Count, Converter={StaticResource InverseCountToBoolConverter}}"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Grid>
+                <ListView 
+                    ItemsSource="{Binding Favourites}"
+                    HasUnevenRows="True"
+                    SeparatorVisibility="None"
+                    CachingStrategy="RecycleElement">
+                    <ListView.Behaviors>
+                        <behaviors:EventToCommandBehavior           
+                            EventName="ItemTapped"
+                            Command="{Binding FavouriteDetailCommand}"
+                            EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}" />
+                    </ListView.Behaviors>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <templates:FavouriteTemplate />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

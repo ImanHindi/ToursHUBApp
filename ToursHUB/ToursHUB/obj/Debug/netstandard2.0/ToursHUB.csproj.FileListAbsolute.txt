@@ -1,0 +1,98 @@
+E:/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.deps.json
+E:/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.csproj.CoreCompileInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.App.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.MainPage.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfoInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfo.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.csprojResolveAssemblyReference.cache
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.BasketView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CampaignDetailsView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CampaignView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CatalogView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CheckoutView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CustomNavigationView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.FiltersView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.LoginView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.MainView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.OrderDetailView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ProfileView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.SettingsView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ViewTemplates.BasketItemTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ViewTemplates.CampaignTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ViewTemplates.OrderItemTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ViewTemplates.OrderTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ViewTemplates.ProductTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.deps.json
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.csproj.CoreCompileInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.App.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Controls.AddBasketButton.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.BasketView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CampaignDetailsView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CampaignView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CheckoutView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CustomNavigationView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.FiltersView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.LoginView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.MainView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.OrderDetailView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ProfileView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.SettingsView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.BasketItemTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.CampaignTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.OrderItemTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.OrderTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.ProductTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.TourCatalogView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfoInputs.cache
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfo.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.dll
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.pdb
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.CreatorEditTripView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ProductDetailView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.FavouriteTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.UserInfoTemplate.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.TourGuideDetailView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.ToursGuideView.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.Views.Templates.TripTemplate - Copy.xaml.g.cs
+E:/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.csprojResolveAssemblyReference.cache
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.deps.json
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.dll
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/bin/Debug/netstandard2.0/ToursHUB.pdb
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Controls/AddBasketButton.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/BasketView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/CampaignDetailsView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/CampaignView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/CheckoutView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/CreatorEditTripView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/CustomNavigationView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/FiltersView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/LoginView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/MainView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/OrderDetailView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/ProfileView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/SettingsView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/BasketItemTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/CampaignTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/FavouriteTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/OrderItemTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/OrderTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/TourTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/TripTemplate - Copy.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/Templates/UserInfoTemplate.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/TourCatalogView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/TourDetailView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/TourGuideDetailView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/Views/ToursGuideView.xaml.g.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.csproj.CoreCompileInputs.cache
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfoInputs.cache
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.AssemblyInfo.cs
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/XamlC.stamp
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.dll
+/Volumes/D/My PC/ToursHUB/ToursHUB/ToursHUB/ToursHUB/obj/Debug/netstandard2.0/ToursHUB.pdb

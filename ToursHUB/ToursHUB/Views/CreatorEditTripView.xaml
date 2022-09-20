@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursHUB.Views.CreatorEditTripView"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:converters="clr-namespace:ToursHUB.Converters;assembly=ToursHUB"
+			 xmlns:viewModelBase="clr-namespace:ToursHUB.ViewModels.Base;assembly=ToursHUB"
+			 viewModelBase:ViewModelLocator.AutoWireViewModel="true"
+             Title="Creat New Trip">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:StringNullOrEmptyBoolConverter x:Key="StringNullOrEmptyBoolConverter" />
+            
+            <Style x:Key="TripTitleStyle" 
+                   TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize" 
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="HorizontalOptions" 
+                        Value="Start" />
+                <Setter Property="VerticalOptions" 
+                        Value="Center" />
+                <Setter Property="Margin" 
+                        Value="12, 0" />
+                <Setter Property="TextColor" 
+                        Value="{StaticResource GreenColor}" />
+            </Style>
+            <Style x:Key="TripTitleEntryStyle" 
+                   TargetType="{x:Type Entry}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="FontSize" 
+                        Value="{StaticResource MediumSize}" />
+                <Setter Property="HorizontalOptions" 
+                        Value="Start" />
+                <Setter Property="VerticalOptions" 
+                        Value="Center" />
+                <Setter Property="Margin" 
+                        Value="12, 0" />
+                <Setter Property="TextColor" 
+                        Value="{StaticResource GreenColor}" />
+            </Style>
+            <Style x:Key="TripDescriptionStyle" 
+                   TargetType="{x:Type Entry}"
+                   BasedOn="{StaticResource TripTitleEntryStyle}">
+                <Setter Property="FontSize" 
+                        Value="{StaticResource LittleSize}" />
+                <Setter Property="TextColor" 
+                        Value="{StaticResource BlackColor}" />
+            </Style>
+
+            <Style x:Key="TripImageStyle" 
+                   TargetType="{x:Type Image}">
+                <Setter Property="Aspect" 
+                        Value="AspectFit" />
+                <Setter Property="VerticalOptions" 
+                        Value="Start" />
+                <Setter Property="Margin" 
+                        Value="12" />
+            </Style>
+
+            <Style x:Key="TripAvailabilityDescriptionStyle" 
+                   TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+                        Value="{StaticResource MontserratRegular}" />
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="HorizontalOptions"
+                Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+            </Style>
+            
+            <Style x:Key="TripViewSiteButtonStyle" 
+                   TargetType="{x:Type Button}">
+                <Setter Property="TextColor"
+                        Value="{StaticResource WhiteColor}" />
+                <Setter Property="BackgroundColor"
+                        Value="{StaticResource LightGreenColor}" />
+            </Style>
+
+            <Style x:Key="TripAvailabilityBannerStyle" 
+                   TargetType="{x:Type Grid}">
+                <Setter Property="BackgroundColor"
+                        Value="{StaticResource GrayColor}" />
+                <Setter Property="Padding"
+                        Value="12" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+                <Setter Property="ColumnSpacing"
+                        Value="0" />
+                <Setter Property="RowSpacing"
+                        Value="0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid
+            BackgroundColor="{StaticResource BackgroundColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="1" />
+        </Grid.RowDefinitions>
+        <Label 
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Trip Name:"
+                    Style="{StaticResource TripTitleStyle}"/>
+        <!--<Label 
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    Text="{Binding Name}"
+                    Style="{StaticResource TripContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>-->
+        <Entry  Grid.Column="1"
+                    Grid.Row="0"
+                    Placeholder="{Binding Name}"
+                    Style="{StaticResource TripContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+
+        <Label 
+                    Grid.Column="1"
+                    Grid.Row="4"
+                    Text="Trip Date:"
+                    Style="{StaticResource TripContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+        <DatePicker      Grid.Column="1"
+                         Grid.Row="4"
+                         MinimumDate="{x:Static sys:DateTime.Now}"
+                         Date="{Binding Date}"
+                         IsVisible="{Binding Visiblity}"/>
+        <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+        <DatePicker.MaximumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+                <x:Arguments>
+                    <x:String>Jan 1 2050</x:String>
+                </x:Arguments>
+            </sys:DateTime>
+        </DatePicker.MaximumDate>
+
+        <Label 
+                    Grid.Column="1"
+                    Grid.Row="4"
+                    Text="Trip Time:"
+                    Style="{StaticResource TripContentStyle}"
+                    IsVisible="{Binding Visiblity , Converter={StaticResource InverseBoolConverter}}"/>
+        <TimePicker      Grid.Column="1"
+                         Grid.Row="4"
+                         MinimumTime="{x:Static sys:DateTime.Now}"
+                         Time="{Binding Time}"
+                         IsVisible="{Binding Visiblity}"/>
+        <TimePicker.Format>hhhh</TimePicker.Format>
+        
+        <Label
+                    Grid.Column="0"
+                    Grid.Row="1"
+                    Text="Location:"
+                    Style="{StaticResource TripTitleStyle}"/>
+     
+        <Entry  Grid.Column="1"
+                    Grid.Row="1"
+                    Placeholder="{Binding Location}"
+                    Style="{StaticResource TripContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+ 
+        <Label 
+                    Grid.Column="0"
+                    Grid.Row="4"
+                    Text="Discription"
+                    Style="{StaticResource TripTitleStyle}"/>
+       
+        <Entry  Grid.Column="1"
+                    Grid.Row="4"
+                    Placeholder="{Binding Comments, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource TripContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+        <Label 
+                    Grid.Column="0"
+                    Grid.Row="5"
+                    Text="Budget:"
+                    Style="{StaticResource TripTitleStyle}"/>
+     
+        <Entry  Grid.Column="1"
+                    Grid.Row="5"
+                    Placeholder="{Binding Price, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource TripContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+        <Label 
+                    Grid.Column="0"
+                    Grid.Row="6"
+                    Text="Details"
+                    Style="{StaticResource TripTitleStyle}"/>
+       
+        <Entry  Grid.Column="1"
+                    Grid.Row="6"
+                    Placeholder="{Binding Details, Converter={StaticResource ToUpperConverter}}"
+                    Style="{StaticResource TripContentEntryStyle}" IsVisible="{Binding Visiblity}"/>
+
+
+        <Grid 
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="7"
+                BackgroundColor="Gray"/>
+
+        <!-- INDICATOR -->
+        <ActivityIndicator
+            Grid.Row="0"
+            Color="{StaticResource LightGreenColor}"
+            IsRunning="{Binding IsBusy}"  
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="Center"
+            HorizontalOptions="Center">
+            <ActivityIndicator.WidthRequest>
+                <OnPlatform x:TypeArguments="x:Double">
+                    <On Platform="iOS, Android" Value="100" />
+                    <On Platform="UWP, WinRT, WinPhone" Value="400" />
+                </OnPlatform>
+            </ActivityIndicator.WidthRequest>
+        </ActivityIndicator>
+    </Grid>
+</ContentPage>
